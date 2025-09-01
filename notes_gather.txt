@@ -1,0 +1,26 @@
+notes that imma gather 
+
+idea is to use a glcm -> grey level co-occurence matrix 
+for texture analysis 
+
+
+now why glcm? 
+- grey scale 
+- you check for patterns effectively 
+- and see how they repeat 
+- roughness and smoothness 
+
+easier to keep matrices as such while training a model 
+
+so you do color analysis and texture analysis in order to come to a final standing 
+
+after this, you train the models on this matrices 
+and then randomforest classifier to classify what the problem could be 
+
+(there could be no problem)
+
+and test the model 
+80-20 split 
+
+and then predict. 
+
